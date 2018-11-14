@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  font-family: 'PT Sans', sans-serif;
+  color: #2e1212;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.title,
+.subtitle,
+.for-friends,
+.day-first-title,
+.price-title,
+.price {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.title,
+.price-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle,
+.day-first-title,
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.for-friends {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4d2727;
+}
+
+.text,
+.list {
+  text-indent: 1.5rem;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 200px;
+  height: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgb(107, 48, 48);
+  border-radius: 30px;
+  transition: background-color 0.2s linear;
+}
+
+.button:hover {
+  background-color: rgba(107, 48, 48, 0.8);
+}
